@@ -1,6 +1,6 @@
 # 🛡️ Tourist Safety & Trust Assistant
 
-### Smart India Hackathon 2026 | SIH26204
+### Smart India Hackathon 2026 | SIH26204 | BRAINFORAGE
 
 An AI-powered smart tourism platform that acts as a trusted digital travel companion, helping tourists stay safe, find verified services, manage their budget, avoid scams, and receive intelligent real-time assistance.
 
