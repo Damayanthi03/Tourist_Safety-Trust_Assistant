@@ -1,10 +1,12 @@
 import React from 'react';
 import { useTravel } from '../context/TravelContext';
 import { useAuth } from '../context/AuthContext';
+
 import { 
   MapPin, Calendar, Users, DollarSign, ShieldCheck, 
   Sparkles, Compass, ArrowRight, CheckCircle2, AlertTriangle, Building, PhoneCall 
 } from 'lucide-react';
+import ramanarayanam from "../assets/ramanarayanam.jpg";
 
 export default function Home({ onNavigate }) {
   const { 
@@ -27,12 +29,12 @@ export default function Home({ onNavigate }) {
       description: "18th-century stone fortress with victory gate and Moti Mahal royal hall."
     },
     {
-      name: "Ramanarayanam Spiritual Park",
-      category: "Spiritual & Light Show",
-      badge: "Top Tourist Hub",
-      image: "https://images.unsplash.com/photo-1609766857329-8739a8501254?auto=format&fit=crop&w=600&q=80",
-      description: "Gigantic Kodanda Rama bow-shaped temple complex with evening laser water shows."
-    },
+    name: "Ramanarayanam Spiritual Park",
+    category: "Spiritual & Light Show",
+    badge: "Top Tourist Hub",
+    image: ramanarayanam,
+    description: "Gigantic Kodanda Rama bow-shaped temple complex with evening laser water shows."
+},
     {
       name: "Pedda Cheruvu Promenade",
       category: "Eco Tourism & Lake",
